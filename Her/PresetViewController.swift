@@ -32,4 +32,10 @@ class PresetViewController: UIViewController {
     }
     */
 
+    @IBAction func handleClickFemale(sender: AnyObject) {
+        self.performSegueWithIdentifier(NSStringFromClass(HomeViewController), sender: sender)
+    }
+    @IBAction func handleClickMale(sender: AnyObject) {
+        self.performSegueWithIdentifier(NSStringFromClass(HomeViewController), sender: sender)
+    }
 }

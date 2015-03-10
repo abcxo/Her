@@ -14,7 +14,11 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.performSegueWithIdentifier(NSStringFromClass(PresetViewController), sender: nil);
+        
     }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -31,5 +35,8 @@ class HomeViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    @IBAction func unwindSegue(segue: UIStoryboardSegue){
+    
+    }
 
 }
