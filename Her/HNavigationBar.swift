@@ -18,24 +18,26 @@ class HNavigationBar: UINavigationBar {
         // Drawing code
     }
     */
+
     @IBInspectable
     var transparent :Bool{
         didSet{
-            //设置背景
             var bgView = self.subviews.first as! UIView
             bgView.hidden = self.transparent
+            if self.transparent == false {
+                self.setBackgroundImage(UIImage.image(UIColor.whiteColor(), size: CGSizeMake(screenWidth_UI, navBarHeight_UI+statusBarHeight_UI)), forBarMetrics: UIBarMetrics.Default)
+                self.shadowImage = UIImage.image(colorGrayLight_UI, size: CGSizeMake(screenWidth_UI, pxHeight_UI))
+            }
         }
     }
-    
     required init(coder aDecoder: NSCoder) {
+        
         self.transparent = false
         super.init(coder: aDecoder)
         self.initUI()
     }
     func initUI(){
         
-        
-
         //设置字体
         var font = UIFont(name: "DFWaWaSC-W5", size: fontSizeDefault_UI)
         if let font=font {

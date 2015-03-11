@@ -34,6 +34,10 @@
 		BFB2DB9F1AAC3B4400815025 /* WawaSC-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFB2DB9E1AAC3B4400815025 /* WawaSC-Regular.otf */; };
 		BFB2DBA31AAC3E7500815025 /* HNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB2DBA21AAC3E7500815025 /* HNavigationBar.swift */; };
 		BFC0A9861AADCFED002AA36C /* HBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0A9851AADCFED002AA36C /* HBarButtonItem.swift */; };
+		BFD323821AAF105C00BBC8EE /* HColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD323811AAF105C00BBC8EE /* HColor.swift */; };
+		BFD323841AAF1DC000BBC8EE /* HLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD323831AAF1DC000BBC8EE /* HLineView.swift */; };
+		BFD323861AAF1F1D00BBC8EE /* HView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD323851AAF1F1D00BBC8EE /* HView.swift */; };
+		BFD323881AAF28BA00BBC8EE /* HImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD323871AAF28BA00BBC8EE /* HImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +83,10 @@
 		BFB2DBA21AAC3E7500815025 /* HNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNavigationBar.swift; sourceTree = "<group>"; };
 		BFB2DBA41AAC3FFD00815025 /* HerPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HerPlayground.playground; sourceTree = "<group>"; };
 		BFC0A9851AADCFED002AA36C /* HBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBarButtonItem.swift; sourceTree = "<group>"; };
+		BFD323811AAF105C00BBC8EE /* HColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HColor.swift; sourceTree = "<group>"; };
+		BFD323831AAF1DC000BBC8EE /* HLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLineView.swift; sourceTree = "<group>"; };
+		BFD323851AAF1F1D00BBC8EE /* HView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HView.swift; sourceTree = "<group>"; };
+		BFD323871AAF28BA00BBC8EE /* HImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +228,9 @@
 			isa = PBXGroup;
 			children = (
 				BFA1E4841AAD3E010087389A /* HUtility.swift */,
+				BFD323811AAF105C00BBC8EE /* HColor.swift */,
+				BFD323851AAF1F1D00BBC8EE /* HView.swift */,
+				BFD323871AAF28BA00BBC8EE /* HImage.swift */,
 			);
 			name = Utility;
 			sourceTree = "<group>";
@@ -236,6 +247,7 @@
 				BFA1E4941AAD70480087389A /* HBadgeView.swift */,
 				BFA1E4961AAD70820087389A /* HSayView.swift */,
 				BFC0A9851AADCFED002AA36C /* HBarButtonItem.swift */,
+				BFD323831AAF1DC000BBC8EE /* HLineView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -354,7 +366,9 @@
 				BFA1E4931AAD70270087389A /* HFindView.swift in Sources */,
 				4396F2411AA4B67300FE6C02 /* HomeViewController.swift in Sources */,
 				BFC0A9861AADCFED002AA36C /* HBarButtonItem.swift in Sources */,
+				BFD323821AAF105C00BBC8EE /* HColor.swift in Sources */,
 				4396F21A1AA4B27600FE6C02 /* ViewController.swift in Sources */,
+				BFD323861AAF1F1D00BBC8EE /* HView.swift in Sources */,
 				4396F24D1AA4B8E600FE6C02 /* AboutViewController.swift in Sources */,
 				4396F2151AA4B27600FE6C02 /* AppDelegate.swift in Sources */,
 				BFA1E4951AAD70480087389A /* HBadgeView.swift in Sources */,
@@ -364,11 +378,13 @@
 				BFA1E4911AAD70130087389A /* HGenderOrientationView.swift in Sources */,
 				4396F2491AA4B80700FE6C02 /* AvatarViewController.swift in Sources */,
 				BFA1E4851AAD3E010087389A /* HUtility.swift in Sources */,
+				BFD323881AAF28BA00BBC8EE /* HImage.swift in Sources */,
 				BFA1E48D1AAD6F700087389A /* HFemaleView.swift in Sources */,
 				4396F24B1AA4B84E00FE6C02 /* NicknameViewController.swift in Sources */,
 				BFB2DBA31AAC3E7500815025 /* HNavigationBar.swift in Sources */,
 				4396F2431AA4B6A800FE6C02 /* ChatViewController.swift in Sources */,
 				BFA1E48F1AAD6F830087389A /* HMaleView.swift in Sources */,
+				BFD323841AAF1DC000BBC8EE /* HLineView.swift in Sources */,
 				BFA1E4871AAD42AF0087389A /* Her.swift in Sources */,
 				4396F2451AA4B72C00FE6C02 /* SlideViewController.swift in Sources */,
 				4396F23F1AA4B66400FE6C02 /* PresetViewController.swift in Sources */,
