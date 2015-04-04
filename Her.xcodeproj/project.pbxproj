@@ -22,6 +22,9 @@
 		4396F2491AA4B80700FE6C02 /* AvatarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4396F2481AA4B80700FE6C02 /* AvatarViewController.swift */; };
 		4396F24B1AA4B84E00FE6C02 /* NicknameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4396F24A1AA4B84E00FE6C02 /* NicknameViewController.swift */; };
 		4396F24D1AA4B8E600FE6C02 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4396F24C1AA4B8E600FE6C02 /* AboutViewController.swift */; };
+		BF4E01601AB53129002E29D9 /* HNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4E015F1AB53129002E29D9 /* HNavigationController.swift */; };
+		BF4E01621AB5314C002E29D9 /* HSlideNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4E01611AB5314C002E29D9 /* HSlideNavigationController.swift */; };
+		BF4E01641AB5A760002E29D9 /* SlideTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4E01631AB5A760002E29D9 /* SlideTableViewCell.swift */; };
 		BFA1E4851AAD3E010087389A /* HUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1E4841AAD3E010087389A /* HUtility.swift */; };
 		BFA1E4871AAD42AF0087389A /* Her.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1E4861AAD42AF0087389A /* Her.swift */; };
 		BFA1E48B1AAD6F5E0087389A /* HAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1E48A1AAD6F5E0087389A /* HAvatarView.swift */; };
@@ -29,7 +32,7 @@
 		BFA1E48F1AAD6F830087389A /* HMaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1E48E1AAD6F830087389A /* HMaleView.swift */; };
 		BFA1E4911AAD70130087389A /* HGenderOrientationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1E4901AAD70130087389A /* HGenderOrientationView.swift */; };
 		BFA1E4931AAD70270087389A /* HFindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1E4921AAD70270087389A /* HFindView.swift */; };
-		BFA1E4951AAD70480087389A /* HBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1E4941AAD70480087389A /* HBadgeView.swift */; };
+		BFA1E4951AAD70480087389A /* HBadgeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1E4941AAD70480087389A /* HBadgeLabel.swift */; };
 		BFA1E4971AAD70820087389A /* HSayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1E4961AAD70820087389A /* HSayView.swift */; };
 		BFB2DB9F1AAC3B4400815025 /* WawaSC-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFB2DB9E1AAC3B4400815025 /* WawaSC-Regular.otf */; };
 		BFB2DBA31AAC3E7500815025 /* HNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB2DBA21AAC3E7500815025 /* HNavigationBar.swift */; };
@@ -38,6 +41,8 @@
 		BFD323841AAF1DC000BBC8EE /* HLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD323831AAF1DC000BBC8EE /* HLineView.swift */; };
 		BFD323861AAF1F1D00BBC8EE /* HView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD323851AAF1F1D00BBC8EE /* HView.swift */; };
 		BFD323881AAF28BA00BBC8EE /* HImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD323871AAF28BA00BBC8EE /* HImage.swift */; };
+		BFEA7AFD1AB0732100C0D137 /* HViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEA7AFC1AB0732100C0D137 /* HViewController.swift */; };
+		BFEA7AFF1AB0733600C0D137 /* HTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEA7AFE1AB0733600C0D137 /* HTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +75,9 @@
 		4396F2481AA4B80700FE6C02 /* AvatarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarViewController.swift; sourceTree = "<group>"; };
 		4396F24A1AA4B84E00FE6C02 /* NicknameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NicknameViewController.swift; sourceTree = "<group>"; };
 		4396F24C1AA4B8E600FE6C02 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		BF4E015F1AB53129002E29D9 /* HNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNavigationController.swift; sourceTree = "<group>"; };
+		BF4E01611AB5314C002E29D9 /* HSlideNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSlideNavigationController.swift; sourceTree = "<group>"; };
+		BF4E01631AB5A760002E29D9 /* SlideTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideTableViewCell.swift; sourceTree = "<group>"; };
 		BFA1E4841AAD3E010087389A /* HUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUtility.swift; sourceTree = "<group>"; };
 		BFA1E4861AAD42AF0087389A /* Her.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Her.swift; sourceTree = "<group>"; };
 		BFA1E48A1AAD6F5E0087389A /* HAvatarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HAvatarView.swift; sourceTree = "<group>"; };
@@ -77,7 +85,7 @@
 		BFA1E48E1AAD6F830087389A /* HMaleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMaleView.swift; sourceTree = "<group>"; };
 		BFA1E4901AAD70130087389A /* HGenderOrientationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGenderOrientationView.swift; sourceTree = "<group>"; };
 		BFA1E4921AAD70270087389A /* HFindView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFindView.swift; sourceTree = "<group>"; };
-		BFA1E4941AAD70480087389A /* HBadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBadgeView.swift; sourceTree = "<group>"; };
+		BFA1E4941AAD70480087389A /* HBadgeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBadgeLabel.swift; sourceTree = "<group>"; };
 		BFA1E4961AAD70820087389A /* HSayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSayView.swift; sourceTree = "<group>"; };
 		BFB2DB9E1AAC3B4400815025 /* WawaSC-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "WawaSC-Regular.otf"; path = "Resource/WawaSC-Regular.otf"; sourceTree = "<group>"; };
 		BFB2DBA21AAC3E7500815025 /* HNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNavigationBar.swift; sourceTree = "<group>"; };
@@ -87,6 +95,8 @@
 		BFD323831AAF1DC000BBC8EE /* HLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLineView.swift; sourceTree = "<group>"; };
 		BFD323851AAF1F1D00BBC8EE /* HView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HView.swift; sourceTree = "<group>"; };
 		BFD323871AAF28BA00BBC8EE /* HImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HImage.swift; sourceTree = "<group>"; };
+		BFEA7AFC1AB0732100C0D137 /* HViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HViewController.swift; sourceTree = "<group>"; };
+		BFEA7AFE1AB0733600C0D137 /* HTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +222,10 @@
 				4396F2481AA4B80700FE6C02 /* AvatarViewController.swift */,
 				4396F24A1AA4B84E00FE6C02 /* NicknameViewController.swift */,
 				4396F24C1AA4B8E600FE6C02 /* AboutViewController.swift */,
+				BFEA7AFC1AB0732100C0D137 /* HViewController.swift */,
+				BFEA7AFE1AB0733600C0D137 /* HTableViewController.swift */,
+				BF4E015F1AB53129002E29D9 /* HNavigationController.swift */,
+				BF4E01611AB5314C002E29D9 /* HSlideNavigationController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -244,10 +258,11 @@
 				BFA1E48E1AAD6F830087389A /* HMaleView.swift */,
 				BFA1E4901AAD70130087389A /* HGenderOrientationView.swift */,
 				BFA1E4921AAD70270087389A /* HFindView.swift */,
-				BFA1E4941AAD70480087389A /* HBadgeView.swift */,
+				BFA1E4941AAD70480087389A /* HBadgeLabel.swift */,
 				BFA1E4961AAD70820087389A /* HSayView.swift */,
 				BFC0A9851AADCFED002AA36C /* HBarButtonItem.swift */,
 				BFD323831AAF1DC000BBC8EE /* HLineView.swift */,
+				BF4E01631AB5A760002E29D9 /* SlideTableViewCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -363,15 +378,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFA1E4971AAD70820087389A /* HSayView.swift in Sources */,
+				BF4E01641AB5A760002E29D9 /* SlideTableViewCell.swift in Sources */,
+				BFEA7AFD1AB0732100C0D137 /* HViewController.swift in Sources */,
 				BFA1E4931AAD70270087389A /* HFindView.swift in Sources */,
 				4396F2411AA4B67300FE6C02 /* HomeViewController.swift in Sources */,
+				BF4E01621AB5314C002E29D9 /* HSlideNavigationController.swift in Sources */,
+				BFEA7AFF1AB0733600C0D137 /* HTableViewController.swift in Sources */,
 				BFC0A9861AADCFED002AA36C /* HBarButtonItem.swift in Sources */,
 				BFD323821AAF105C00BBC8EE /* HColor.swift in Sources */,
 				4396F21A1AA4B27600FE6C02 /* ViewController.swift in Sources */,
 				BFD323861AAF1F1D00BBC8EE /* HView.swift in Sources */,
 				4396F24D1AA4B8E600FE6C02 /* AboutViewController.swift in Sources */,
 				4396F2151AA4B27600FE6C02 /* AppDelegate.swift in Sources */,
-				BFA1E4951AAD70480087389A /* HBadgeView.swift in Sources */,
+				BFA1E4951AAD70480087389A /* HBadgeLabel.swift in Sources */,
 				4396F2471AA4B76200FE6C02 /* SettingViewController.swift in Sources */,
 				4396F2181AA4B27600FE6C02 /* Her.xcdatamodeld in Sources */,
 				BFA1E48B1AAD6F5E0087389A /* HAvatarView.swift in Sources */,
@@ -384,6 +403,7 @@
 				BFB2DBA31AAC3E7500815025 /* HNavigationBar.swift in Sources */,
 				4396F2431AA4B6A800FE6C02 /* ChatViewController.swift in Sources */,
 				BFA1E48F1AAD6F830087389A /* HMaleView.swift in Sources */,
+				BF4E01601AB53129002E29D9 /* HNavigationController.swift in Sources */,
 				BFD323841AAF1DC000BBC8EE /* HLineView.swift in Sources */,
 				BFA1E4871AAD42AF0087389A /* Her.swift in Sources */,
 				4396F2451AA4B72C00FE6C02 /* SlideViewController.swift in Sources */,

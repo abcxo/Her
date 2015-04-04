@@ -39,10 +39,8 @@ class HNavigationBar: UINavigationBar {
     func initUI(){
         
         //设置字体
-        var font = UIFont(name: "DFWaWaSC-W5", size: fontSizeDefault_UI)
-        if let font=font {
-            self.titleTextAttributes = [NSFontAttributeName : font]
-        }
+        var font:UIFont = HUtilityUI.wawaFont(fontSizeTitle_UI)
+        self.titleTextAttributes = [NSFontAttributeName : font]
         
         
     }

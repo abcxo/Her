@@ -8,16 +8,9 @@
 
 import UIKit
 @IBDesignable
-class HBarButtonItem: UIBarButtonItem {
-    
-    required  init(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        self.image=self.image!.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal)
-    }
-    
-    
+class HBarButtonItem : UIBarButtonItem {
+	required init(coder aDecoder : NSCoder) {
+		super.init(coder : aDecoder)
+		self.image = self.image!.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal)
+	}
 }
-
-
-
-

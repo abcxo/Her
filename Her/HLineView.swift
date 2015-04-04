@@ -9,25 +9,33 @@
 import UIKit
 
 @IBDesignable
-class HLineView: UIView {
-    override init() {
-        super.init()
-        self.setTranslatesAutoresizingMaskIntoConstraints(false)
-        self.backgroundColor = colorGrayLight_UI
-    }
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        self.setTranslatesAutoresizingMaskIntoConstraints(false)
-        self.backgroundColor = colorGrayLight_UI
-    }
-    
-    required init(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        self.setTranslatesAutoresizingMaskIntoConstraints(false)
-        self.backgroundColor = colorGrayLight_UI
-    }
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        self.setHeight(height: pxHeight_UI)
-    }
+class HLineView : UIView {
+	override init() {
+		super.init()
+		self.setTranslatesAutoresizingMaskIntoConstraints(false)
+        if self.backgroundColor == nil {
+            self.backgroundColor = colorGrayLight_UI
+        }
+	}
+
+	override init(frame : CGRect) {
+		super.init(frame : frame)
+		self.setTranslatesAutoresizingMaskIntoConstraints(false)
+        if self.backgroundColor == nil {
+            self.backgroundColor = colorGrayLight_UI
+        }
+	}
+
+	required init(coder aDecoder : NSCoder) {
+		super.init(coder : aDecoder)
+		self.setTranslatesAutoresizingMaskIntoConstraints(false)
+        if self.backgroundColor == nil {
+            self.backgroundColor = colorGrayLight_UI
+        }
+	}
+
+	override func layoutSubviews() {
+		super.layoutSubviews()
+		self.setHeight(height : pxHeight_UI)
+	}
 }

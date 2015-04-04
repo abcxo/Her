@@ -8,21 +8,19 @@
 
 import UIKit
 
-class HSayView: UIView {
+class HSayView : UIView {
+	/*
+	   // Only override drawRect: if you perform custom drawing.
+	   // An empty implementation adversely affects performance during animation.
+	   override func drawRect(rect: CGRect) {
+	    // Drawing code
+	   }
+	 */
+	required init(coder aDecoder : NSCoder) {
+		super.init(coder : aDecoder)
+		self.initUI()
+	}
 
-    /*
-    // Only override drawRect: if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func drawRect(rect: CGRect) {
-        // Drawing code
-    }
-    */
-    required init(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        self.initUI()
-    }
-    
-    func initUI(){
-        
-    }
+	func initUI() {
+	}
 }

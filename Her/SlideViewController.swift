@@ -8,28 +8,42 @@
 
 import UIKit
 
-class SlideViewController: UIViewController {
 
+
+
+class SlideViewController : HViewController,UITableViewDataSource,UITableViewDelegate{
+
+    @IBOutlet weak var tableView: UITableView!
+    
+    @IBOutlet weak var slideView: UIView!
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
+		super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
+		// Do any additional setup after loading the view.
+        
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+	}
+    
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1;
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 3;
     }
-    */
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        var cell:SlideTableViewCell = tableView.dequeueReusableCellWithIdentifier(NSStringFromClass(SlideTableViewCell)) as! SlideTableViewCell
+        return cell
+    }
+    
+    
 
+	override func didReceiveMemoryWarning() {
+		super.didReceiveMemoryWarning()
+		// Dispose of any resources that can be recreated.
+	}
 }
